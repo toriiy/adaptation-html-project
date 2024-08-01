@@ -1,0 +1,445 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/*HEADER*/
+
+div.background {
+    background-image: url("img/background.png");
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 60px;
+}
+
+header {
+    width: 1200px;
+    margin: 0 auto 60px auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+}
+
+header > div > h3 {
+    color: #F1CDB3;
+    font-family: Georgia, sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 1.92px;
+    margin-bottom: 10px;
+}
+
+header > div > p {
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1.3px;
+}
+
+header > ol {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+header > ol > li > a {
+    color: #CDCDCD;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 160%;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+header > ol > li > a:hover {
+    text-decoration: underline solid 3px;
+    text-underline-offset: 8px;
+    color: #FAFAFA;
+    transition: 0.5s;
+}
+
+/*MAIN*/
+
+main {
+    width: 1200px;
+    height: 728px;
+    margin: 0 auto 80px auto;
+    display: flex;
+    gap: 42px;
+    align-items: center;
+}
+
+main > div {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+}
+
+main > div > h2 {
+    color: #FFF;
+    font-family: Georgia, sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 130%;
+    width: 310px;
+}
+
+main > div > p {
+    color: #CDCDCD;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 160%;
+    width: 460px;
+}
+
+main > div > button {
+    width: 207px;
+    height: 52px;
+    border-radius: 100px;
+    border: none;
+    background: #F1CDB3;
+    color: #292929;
+    font-family: Georgia, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 1.02px;
+    transition: 0.5s;
+}
+
+main > div > button:hover {
+    background: #cda687;
+    transition: 0.5s;
+}
+
+/*ARTICLE*/
+
+article {
+    width: 1200px;
+    height: 408px;
+    padding: 0 175px;
+    margin: 0 auto 100px auto;
+    display: flex;
+    gap: 120px;
+    align-items: center;
+}
+
+article > div > h2 {
+    color: #545454;
+    font-family: Georgia, sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 2.1px;
+    width: 370px;
+}
+
+article > div > p {
+    color: #4C4C4C;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 160%;
+    width: 430px;
+}
+
+article > div {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/*SECTION PETS*/
+
+section.pets {
+    width: 1280px;
+    padding: 80px 40px 100px 40px;
+    margin: 0 auto 53px auto;
+    background: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Georgia, sans-serif;
+}
+
+section.pets > h2 {
+    color: #545454;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 2.1px;
+    width: 400px;
+}
+
+section.pets > div.flex > div {
+    width: 270px;
+    height: 435px;
+    border-radius: 9px;
+    background: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+section.pets > div.flex > div > span {
+    color: #545454;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+}
+
+section.pets > div.flex > div > button {
+    width: 187px;
+    height: 52px;
+    border-radius: 100px;
+    border: 2px solid #F1CDB3;
+    background: none;
+    color: #292929;
+    font-family: Georgia, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 1.02px;
+    transition: 0.5s;
+}
+
+section.pets > div.flex > div > button:hover {
+    background-color: #f8e7dd;
+    transition: 0.5s;
+}
+
+section.pets > button {
+    width: 261px;
+    height: 52px;
+    border-radius: 100px;
+    border: none;
+    background: #F1CDB3;
+    color: #292929;
+    font-family: Georgia, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 1.02px;
+    transition: 0.5s;
+}
+
+section.pets > button:hover {
+    background: #f3c4a2;
+    transition: 0.5s;
+}
+
+div.flex {
+    margin: 60px 0;
+    display: flex;
+    gap: 90px;
+}
+
+/*SECTION HELP*/
+
+section.help {
+    width: 1200px;
+    margin: 0 auto 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Georgia, sans-serif;
+}
+
+section.help > h2 {
+    color: #545454;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 2.1px;
+    width: 315px;
+}
+
+div.row-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 55px;
+    width: 1026px;
+    margin-top: 60px;
+}
+
+div.row-2 {
+    width: 1026px;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+section.help > div.row-1 > div,
+section.help > div.row-2 > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+section.help > div.row-1 > div > h4,
+section.help > div.row-2 > div > h4 {
+    color: #545454;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 115%;
+    letter-spacing: 1.2px;
+}
+
+section.help-mobile {
+    display: none;
+}
+
+/*SECTION DONATION*/
+
+section.donation {
+    background: #F6F6F6;
+    width: 1280px;
+    padding: 80px 0 100px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-family: Georgia, sans-serif;
+}
+
+section.donation > div.column-donation {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+section.donation > div.column-donation > h2 {
+    color: #545454;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 2.1px;
+    width: 300px;
+}
+
+section.donation > div.column-donation > p:nth-of-type(1) {
+    color: #545454;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 0.9px;
+}
+
+section.donation > div.column-donation > div {
+    width: 349px;
+    height: 43px;
+    border-radius: 9px;
+    background: #F1CDB3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+section.donation > div.column-donation > div > p {
+    color: #545454;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 115%;
+    letter-spacing: 1.2px;
+}
+
+section.donation > div.column-donation > p:nth-of-type(2) {
+    color: #B2B2B2;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18px;
+    width: 380px;
+}
+
+/*FOOTER*/
+
+footer {
+    width: 1280px;
+    height: 350px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 160px;
+    font-family: Georgia, sans-serif;
+}
+
+div.footer-background {
+    background-image: url("img/footer-gradient-background.png");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+footer > div.column-footer > h3,
+footer > div.column2-footer > h3 {
+    width: 280px;
+    color: #FFF;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 2.1px;
+}
+
+footer > div.column-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+footer > div.column2-footer {
+    margin-bottom: 60px;
+}
+
+footer > div.column-footer > div,
+footer > div.column2-footer > div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+footer > div.column-footer > div > p,
+footer > div.column2-footer > div > p {
+    color: #F1CDB3;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 115%;
+    letter-spacing: 1.2px;
+}
+
+footer > div.column2-footer > div:nth-of-type(1) {
+    margin: 34px 0 37px;
+}
+
+footer > div.column2-footer > div > p {
+    width: 260px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
